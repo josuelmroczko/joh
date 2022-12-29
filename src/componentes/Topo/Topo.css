@@ -58,11 +58,69 @@ body {
     opacity: 1;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 660px) {
+  .apresentacao {
+    position: absolute;
+    width: 280px;
+    left: 0px;
+  }
+  .apresentacao h1 {
+    position: absolute;
+    width: 200px;
+    left: 50px;
+    top: 10px;
+    -webkit-animation: apre 1s infinite;
+            animation: apre 1s infinite;
+    font-size: 20px;
+  }
+  .apresentacao p {
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    font-weight: 100;
+  }
+  .foto {
+    position: absolute;
+    left: 60%;
+    top: 80px;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .apresentacao {
+    position: absolute;
+    width: 400px;
+    left: 10%;
+  }
+  .apresentacao h1 {
+    position: absolute;
+    width: 200px;
+    left: 10px;
+    top: 150px;
+    -webkit-animation: apre 1s infinite;
+            animation: apre 1s infinite;
+    font-size: 20px;
+  }
+  .apresentacao p {
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    font-weight: 100;
+  }
+  .foto {
+    position: absolute;
+    left: 40%;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 400px) {
   .apresentacao {
     position: absolute;
     width: 350px;
-    left: 0px;
+    left: 5%;
   }
   .apresentacao h1 {
     position: absolute;
@@ -75,6 +133,35 @@ body {
   .apresentacao p {
     position: absolute;
     left: 20px;
+    top: 200px;
+    font-weight: 100;
+  }
+  .foto {
+    position: absolute;
+    left: 40%;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .apresentacao {
+    position: absolute;
+    width: 280px;
+    left: 0px;
+  }
+  .apresentacao h1 {
+    position: absolute;
+    width: 200px;
+    left: 10px;
+    top: 150px;
+    -webkit-animation: apre 1s infinite;
+            animation: apre 1s infinite;
+    font-size: 20px;
+  }
+  .apresentacao p {
+    position: absolute;
+    left: 10px;
     top: 200px;
     font-weight: 100;
   }

@@ -19,16 +19,23 @@ ul img {
   .social {
     position: absolute;
     left: 0%;
-    top: 380px;
+    top: 390px;
   }
   ul {
     display: flex;
   }
   ul li {
-    margin-left: 30px;
+    margin-left: 20px;
   }
   ul img {
     width: 50px;
     left: 45%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .social {
+    position: absolute;
+    left: 0%;
+    top: 390px;
   }
 }/*# sourceMappingURL=RedesSociais.css.map */

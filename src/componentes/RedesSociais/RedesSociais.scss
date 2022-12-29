@@ -23,13 +23,13 @@ ul{
     .social{
         position: absolute;
                 left: 0%;
-                top: 380px;
+                top: 390px;
     }
     ul{
         
         display: flex;
         li{
-        margin-left: 30px;
+        margin-left: 20px;
         }
     
         img{
@@ -41,3 +41,11 @@ ul{
         }
     }
 }
+
+////////
+@media screen and (max-width: 1000px){
+    .social{
+        position: absolute;
+                left: 0%;
+                top: 390px;
+    }}

@@ -83,4 +83,22 @@ button {
     left: 80%;
     font-size: 12px;
   }
+}
+@media screen and (max-width: 400px) {
+  .btn1 {
+    position: absolute;
+    left: 40%;
+    top: 500px;
+    padding: 4px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .btn1 {
+    position: absolute;
+    left: 40%;
+    top: 500px;
+    padding: 4px;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=Modal.css.map */
