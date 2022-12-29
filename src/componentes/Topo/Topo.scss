@@ -1,0 +1,109 @@
+$color-primeira: #000000;
+$color-segunda: #eff5e6;
+$color-terceira: #320153;
+$color-quarta: #520194;
+$color-quinta: #7e50eb;
+$color-sexta: #baa8ee;
+
+
+body {
+    background-color: $color-primeira;
+}
+
+.apresentacao {
+    position: absolute;
+    color: $color-segunda;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    width: 350px;
+    left: 100px;
+
+    h1 {
+        position: absolute;
+        width: 400px;
+        left: 20px;
+        top: 40px;
+        animation: apre 1s infinite;
+        
+    
+    }
+    p{
+        position: absolute;
+        left: 20px;
+        top: 100px;
+        font-weight: 100;
+    }
+}
+.foto  {
+    position: absolute;
+    left: 45%;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+    
+    
+    border-radius: 100px;
+    box-shadow:
+    0 0 10px 0px rgb(57, 58, 0)
+
+
+} 
+
+
+
+
+
+
+
+
+@keyframes apre {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+
+@media screen and (max-width: 360px){
+    .apresentacao {
+        position: absolute;
+      
+        width: 350px;
+        left: 0px;
+    
+        h1 {
+            position: absolute;
+            width: 400px;
+            left: 20px;
+            top: 150px;
+            animation: apre 1s infinite;
+            
+        
+        }
+        p{
+            position: absolute;
+            left: 20px;
+            top: 200px;
+            font-weight: 100;
+        }
+    }
+    .foto  {
+        position: absolute;
+        left: 40%;
+        top: 30px;
+        width: 120px;
+        height: 120px;
+        
+    
+    
+    } 
+}

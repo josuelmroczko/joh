@@ -1,0 +1,86 @@
+.container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-overlay {
+  background: #ffffff;
+  position: absolute;
+  left: 35%;
+  top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: linear-gradient(to right, #697001, #526100);
+  -webkit-animation: color-rotate 3s;
+          animation: color-rotate 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 22px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.btn1 {
+  position: absolute;
+  left: 43%;
+  top: 400px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.modal-content {
+  width: 100%;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #fbff00;
+}
+.modal-content a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+}
+
+@-webkit-keyframes color-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes color-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+@media screen and (max-width: 360px) {
+  .btn1 {
+    position: absolute;
+    left: 30%;
+    top: 500px;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .bntfechar button {
+    position: absolute;
+    top: 0px;
+    left: 80%;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=Modal.css.map */

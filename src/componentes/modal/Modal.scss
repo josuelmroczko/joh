@@ -1,0 +1,100 @@
+$cor1:#000000;
+$cor2:#fbff00;
+$cor3:#ffffff;
+$cor4:#000000;
+
+
+
+.container {
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  
+  .modal-overlay {
+    background: $cor3;
+    position: absolute;
+    left: 35%;
+    top: 200px;
+   
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  button{
+    background: linear-gradient(to right, #697001, #526100);
+    animation: color-rotate 3s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+
+    color: $cor3;
+    border-radius: 10px;
+    font-size: 22px;
+    padding:8px;
+    cursor: pointer;
+  }
+ 
+  .btn1 {
+    position: absolute;
+    left: 43%;
+    top: 400px;
+    
+    padding: 4px;
+
+    cursor: pointer;
+  } 
+  
+  
+  .modal-content {
+    width: 100%;
+    max-width: 500px;
+    background-color: $cor3;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid $cor2;
+    a{
+      text-decoration: none;
+      font-size: 15px;
+      color:$cor1;
+    }
+    
+  }
+
+
+
+
+  @keyframes color-rotate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+  
+
+@media screen and (max-width: 360px){
+  .btn1 {
+    position: absolute;
+    left: 30%;
+    top: 500px;
+    
+    padding: 4px;
+
+    cursor: pointer;
+  
+  } 
+  .bntfechar button{
+    position: absolute;
+    top: 0px;
+    left: 80%;
+    font-size: 12px;
+  }
+    
+  }
