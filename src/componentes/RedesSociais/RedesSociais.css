@@ -1,41 +1,10 @@
-.social {
-  position: absolute;
-  left: 33%;
-  top: 300px;
-}
-
-ul {
-  display: flex;
-}
-ul li {
-  margin-left: 50px;
-}
-ul img {
+.social img {
   width: 50px;
-  left: 45%;
 }
 
-@media screen and (max-width: 360px) {
-  .social {
-    position: absolute;
-    left: 0%;
-    top: 390px;
-  }
-  ul {
-    display: flex;
-  }
-  ul li {
-    margin-left: 20px;
-  }
-  ul img {
-    width: 50px;
-    left: 45%;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .social {
-    position: absolute;
-    left: 0%;
-    top: 390px;
-  }
+.social ul {
+  justify-content: end;
+  display: flex;
+  gap: 10px;
+  top: 0;
 }/*# sourceMappingURL=RedesSociais.css.map */
