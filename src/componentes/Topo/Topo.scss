@@ -14,7 +14,7 @@ $color-sexta: #baa8ee;
     position: absolute;
     
     display: flex;
-    top: -100px;
+    top: -150px;
     left: 30%;
     right: 60%;
         
@@ -22,7 +22,7 @@ $color-sexta: #baa8ee;
     width: 120px;
     height: 120px;
     
-    
+   
     border-radius: 100px;
     box-shadow:
     0 0 10px 0px rgb(57, 58, 0)
@@ -45,6 +45,18 @@ $color-sexta: #baa8ee;
 .apresentacao p{
     font-size: 18px;
 }
- 
+ .apresentacao h1 {
 
+    animation: color-rotate1 2s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+ }
 
+@keyframes color-rotate1 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.3;
+    }
+}

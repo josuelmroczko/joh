@@ -6,11 +6,15 @@
     
 }
 .social ul{
+    
 
-    justify-content: end;
+    justify-content: center;
     display: flex;
-    gap: 10px;
+    gap: 10%;
     top: 0;
     
     
+}
+.social li{
+    list-style: none;
 }

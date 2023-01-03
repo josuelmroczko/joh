@@ -1,16 +1,18 @@
 import './estilos.css';
 import Topo from './componentes/Topo/index';
 
-import RedesSociais from './componentes/RedesSociais/index';
+
 import Projeto from './componentes/Projeto/index';
+import Rodape from './componentes/footer/index';
 
 function App() {
   return (
     <div className="App">
      <Topo/>
      
-     <RedesSociais/>
+     
      <Projeto/>
+     <Rodape/>
     </div>
   );
 }

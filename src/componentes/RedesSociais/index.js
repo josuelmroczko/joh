@@ -1,6 +1,6 @@
 import './RedesSociais.css'
 import linkedin from './LinkedIn.png'
-import git from './git.jpg'
+import git from './git.png'
 import whatsapp from './whatsapp.png'
 
 function RedesSociais (){
